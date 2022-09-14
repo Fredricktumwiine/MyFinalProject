@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.firstapp.myfinalproject">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/imags"
+        android:label="Student Management Application"
+        android:roundIcon="@mipmap/imags"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyFinalProject"
+        tools:targetApi="31">
+        <activity
+            android:name=".UserHomeworkActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AddHomeworkActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UserAnnouncementActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UserHomepageMainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".AddAnnouncementActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PdfActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HomeworkActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AnnouncementsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NotesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HomepageMainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".StudentDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UserMainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RegistrationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EditStudentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AddStudentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+    </application>
+
+</manifest>

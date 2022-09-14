@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/hp/Desktop/Androidstudiolectures/MyFinalProject/app/src/main/res/drawable/custom_button_back.xml" value="0.144" />
+        <entry key="..\:/Users/hp/Desktop/Androidstudiolectures/MyFinalProject/app/src/main/res/drawable/progress_back.xml" value="0.144" />
+        <entry key="..\:/Users/hp/Desktop/Androidstudiolectures/MyFinalProject/app/src/main/res/drawable/round_drawable.xml" value="0.15" />
+        <entry key="..\:/Users/hp/Desktop/Androidstudiolectures/MyFinalProject/app/src/main/res/layout/activity_add_announcement.xml" value="0.2640625" />
+        <entry key="..\:/Users/hp/Desktop/Androidstudiolectures/MyFinalProject/app/src/main/res/layout/activity_add_course.xml" value="0.278125" />
+        <entry key="..\:/Users/hp/Desktop/Androidstudiolectures/MyFinalProject/app/src/main/res/layout/activity_add_homework.xml" value="0.278125" />
+        <entry key="..\:/Users/hp/Desktop/Androidstudiolectures/MyFinalProject/app/src/main/res/layout/activity_add_notes.xml" value="0.278125" />
+        <entry key="..\:/Users/hp/Desktop/Androidstudiolectures/MyFinalProject/app/src/main/res/layout/activity_add_student.xml" value="0.278125" />
+        <entry key="..\:/Users/hp/Desktop/Androidstudiolectures/MyFinalProject/app/src/main/res/layout/activity_announcements.xml" value="0.278125" />
+        <entry key="..\:/Users/hp/Desktop/Androidstudiolectures/MyFinalProject/app/src/main/res/layout/activity_edit_course.xml" value="0.278125" />
+        <entry key="..\:/Users/hp/Desktop/Androidstudiolectures/MyFinalProject/app/src/main/res/layout/activity_edit_student.xml" value="0.278125" />
+        <entry key="..\:/Users/hp/Desktop/Androidstudiolectures/MyFinalProject/app/src/main/res/layout/activity_homepage_main.xml" value="0.25" />
+        <entry key="..\:/Users/hp/Desktop/Androidstudiolectures/MyFinalProject/app/src/main/res/layout/activity_homework.xml" value="0.278125" />
+        <entry key="..\:/Users/hp/Desktop/Androidstudiolectures/MyFinalProject/app/src/main/res/layout/activity_login.xml" value="0.27395833333333336" />
+        <entry key="..\:/Users/hp/Desktop/Androidstudiolectures/MyFinalProject/app/src/main/res/layout/activity_main.xml" value="0.278125" />
+        <entry key="..\:/Users/hp/Desktop/Androidstudiolectures/MyFinalProject/app/src/main/res/layout/activity_notes.xml" value="0.278125" />
+        <entry key="..\:/Users/hp/Desktop/Androidstudiolectures/MyFinalProject/app/src/main/res/layout/activity_pdf.xml" value="0.278125" />
+        <entry key="..\:/Users/hp/Desktop/Androidstudiolectures/MyFinalProject/app/src/main/res/layout/activity_registration.xml" value="0.25" />
+        <entry key="..\:/Users/hp/Desktop/Androidstudiolectures/MyFinalProject/app/src/main/res/layout/activity_student_details.xml" value="0.26145833333333335" />
+        <entry key="..\:/Users/hp/Desktop/Androidstudiolectures/MyFinalProject/app/src/main/res/layout/activity_user_announcements.xml" value="0.278125" />
+        <entry key="..\:/Users/hp/Desktop/Androidstudiolectures/MyFinalProject/app/src/main/res/layout/activity_user_homepage_main.xml" value="0.278125" />
+        <entry key="..\:/Users/hp/Desktop/Androidstudiolectures/MyFinalProject/app/src/main/res/layout/activity_user_homework.xml" value="0.278125" />
+        <entry key="..\:/Users/hp/Desktop/Androidstudiolectures/MyFinalProject/app/src/main/res/layout/activity_user_main.xml" value="0.27395833333333336" />
+        <entry key="..\:/Users/hp/Desktop/Androidstudiolectures/MyFinalProject/app/src/main/res/layout/activity_user_notes.xml" value="0.278125" />
+        <entry key="..\:/Users/hp/Desktop/Androidstudiolectures/MyFinalProject/app/src/main/res/layout/announcements_rv_item.xml" value="0.278125" />
+        <entry key="..\:/Users/hp/Desktop/Androidstudiolectures/MyFinalProject/app/src/main/res/layout/bottom_sheet_dialog.xml" value="0.278125" />
+        <entry key="..\:/Users/hp/Desktop/Androidstudiolectures/MyFinalProject/app/src/main/res/layout/course_rv_item.xml" value="0.278125" />
+        <entry key="..\:/Users/hp/Desktop/Androidstudiolectures/MyFinalProject/app/src/main/res/layout/homework_rv_item.xml" value="0.2640625" />
+        <entry key="..\:/Users/hp/Desktop/Androidstudiolectures/MyFinalProject/app/src/main/res/layout/layout_products.xml" value="0.278125" />
+        <entry key="..\:/Users/hp/Desktop/Androidstudiolectures/MyFinalProject/app/src/main/res/layout/notes_rv_item.xml" value="0.278125" />
+        <entry key="..\:/Users/hp/Desktop/Androidstudiolectures/MyFinalProject/app/src/main/res/layout/notesactivity_main.xml" value="0.278125" />
+        <entry key="..\:/Users/hp/Desktop/Androidstudiolectures/MyFinalProject/app/src/main/res/layout/student_rv_item.xml" value="0.278125" />
+        <entry key="..\:/Users/hp/Desktop/Androidstudiolectures/MyFinalProject/app/src/main/res/layout/user_bottom_sheet_dialog.xml" value="0.27395833333333336" />
+        <entry key="..\:/Users/hp/Desktop/Androidstudiolectures/MyFinalProject/app/src/main/res/menu/menu_main.xml" value="0.278125" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

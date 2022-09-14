@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue_shade_1"
+    tools:context=".EditStudentActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/idStudentsImage"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_margin="4dp"
+                android:padding="2dp"
+
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="4">
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Name: "
+                    android:layout_weight="1"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:id="@+id/idTVNameLabel"
+                    android:layout_margin="4dp"
+                    android:padding="2dp"
+                    android:textSize="16sp"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Student's Name "
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:layout_weight="3"
+                    android:id="@+id/idTVName"
+                    android:layout_margin="4dp"
+                    android:padding="4dp"
+                    android:textSize="15sp"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="4">
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Age: "
+                    android:layout_weight="1"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:id="@+id/idTVAgeLabel"
+                    android:layout_margin="4dp"
+                    android:padding="2dp"
+                    android:textSize="16sp"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Student's Age "
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:layout_weight="3"
+                    android:id="@+id/idTVAge"
+                    android:layout_margin="4dp"
+                    android:padding="4dp"
+                    android:textSize="15sp"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="4">
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Maths: "
+                    android:layout_weight="1"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:id="@+id/idTVMathLabel"
+                    android:layout_margin="4dp"
+                    android:padding="2dp"
+                    android:textSize="16sp"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Maths marks "
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:layout_weight="3"
+                    android:id="@+id/idTVMaths"
+                    android:layout_margin="4dp"
+                    android:padding="4dp"
+                    android:textSize="15sp"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="4">
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Science: "
+                    android:layout_weight="1"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:id="@+id/idTVScienceLabel"
+                    android:layout_margin="4dp"
+                    android:padding="2dp"
+                    android:textSize="16sp"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Science Marks "
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:layout_weight="3"
+                    android:id="@+id/idTVScience"
+                    android:layout_margin="4dp"
+                    android:padding="4dp"
+                    android:textSize="15sp"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="4">
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="SST: "
+                    android:layout_weight="1"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:id="@+id/idTVSStLabel"
+                    android:layout_margin="4dp"
+                    android:padding="2dp"
+                    android:textSize="16sp"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="SST Marks "
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:layout_weight="3"
+                    android:id="@+id/idTVSSt"
+                    android:layout_margin="4dp"
+                    android:padding="4dp"
+                    android:textSize="15sp"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="4">
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="English: "
+                    android:layout_weight="1"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:id="@+id/idTVEnglishLabel"
+                    android:layout_margin="4dp"
+                    android:padding="2dp"
+                    android:textSize="16sp"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="English Marks "
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:layout_weight="3"
+                    android:id="@+id/idTVEnglish"
+                    android:layout_margin="4dp"
+                    android:padding="4dp"
+                    android:textSize="15sp"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="4">
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="House: "
+                    android:layout_weight="1"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:id="@+id/idTVHouseLabel"
+                    android:layout_margin="4dp"
+                    android:padding="2dp"
+                    android:textSize="16sp"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Student's Residence "
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:layout_weight="3"
+                    android:id="@+id/idTVHouse"
+                    android:layout_margin="4dp"
+                    android:padding="4dp"
+                    android:textSize="15sp"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="4">
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Comment: "
+                    android:layout_weight="1"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:id="@+id/idTVCommentLabel"
+                    android:layout_margin="4dp"
+                    android:padding="2dp"
+                    android:textSize="16sp"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Teacher's comment "
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:layout_weight="3"
+                    android:id="@+id/idTVComment"
+                    android:layout_margin="4dp"
+                    android:padding="4dp"
+                    android:textSize="15sp"
+                    />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:indeterminateDrawable="@drawable/progress_back"
+            android:indeterminate="true"
+            android:id="@+id/idPBLoadin"
+            android:visibility="gone"/>
+    </RelativeLayout>
+
+</ScrollView>
